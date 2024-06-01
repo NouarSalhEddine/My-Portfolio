@@ -1,66 +1,42 @@
-# KL Lawingco's Personal Site
+# Salheddine Nouar's Portfolio
 
-Hey there! KL here. This is a v2 of my portfolio site, a complete rewrite from v1 which is shamefully a template I edited a bit back on 2018. I wanted to try out what I can do on my own in regards to UI and UX design so I reckon why not start with my porfolio.
+Welcome to my personal portfolio website built with React, Chakra UI, Next.js, and Framer Motion. This project showcases my skills, projects, and experience as a web developer.
 
-This is written in Typescript using [Next.js](https://nextjs.org/), as a SSG tool. It utilizes [ChakraUI](https://chakra-ui.com/) as well as  [Framer Motion](https://www.framer.com/motion/) for animations.
+## Table of Contents
 
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-This contains bits of my details. In future I am planning to get this to cater my own blog too but for now will use dev.to links. 
+## Introduction
 
-Site is Currently deployed at <b>Netlify</b>'s Free tier .
+This portfolio is designed to present my work and skills in a clean, modern, and interactive way. It includes sections for about me, projects, skills, and contact information.
 
-> Build Status 
+## Features
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4a91d5f6-a717-4b60-9f92-82c11745f2e8/deploy-status)](https://app.netlify.com/sites/kllawingco/deploys)
+- **Responsive Design:** The website is fully responsive and works on all devices.
+- **Interactive Animations:** Smooth animations using Framer Motion for an engaging user experience.
+- **Theme Customization:** Light and dark mode support with Chakra UI.
+- **SEO Optimized:** Built with Next.js for better SEO and performance.
 
+## Technologies Used
 
-## Demo
+- **React:** A JavaScript library for building user interfaces.
+- **Chakra UI:** A simple, modular, and accessible component library.
+- **Next.js:** A React framework for server-side rendering and static site generation.
+- **Framer Motion:** A library for creating animations in React.
 
-<img src="./public/demo.gif" alt="DEMO" />
+## Installation
 
+To get a local copy up and running, follow these steps:
 
-## Local Development
+1. **Clone the repository:**
 
-This is just a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-Please use atleast Node v12, but the recommended version is Node v14 LTS. There's a `.nvmrc`, you can run `nvm use` if you have nvm installed.
-
-## Getting Started
-
-This project heavily favors <b>yarn</b> over npm. 
-
-So to set things up you need to run
-
-```bash
-yarn install
-```
-or just
-```bash
-yarn
-```
-
-Then to run the development server:
-
-```bash
-yarn dev
-```
-
-and it should open at
-
-> http://localhost:3000/
-
-
-## Deployment
-
-Nothing special, its setup at Netlify end (in other words: no `netlify.toml`), just merge a feat branch to master branch and you're good. 
-
-
-## Credits
-
-Logo and Avatar are made by my friend : <b>KojiroArt</b>.
-Please check him out at his [`twitter`](https://twitter.com/kojiro_ai) account.  
-
-And of course 
-Made with Love and :coffee:
-
-KL 
+   ```bash
+   git clone https://github.com/NouarSalhEddine/My-Portfolio.git
