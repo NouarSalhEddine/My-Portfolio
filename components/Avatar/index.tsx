@@ -57,7 +57,6 @@ const Avatar = () => {
           margin="auto"
           fallback={<SkeletonCircle height="100%" width="100%" />}
         />
-
       </MotionBox>
     </AnimatePresence>
   )
