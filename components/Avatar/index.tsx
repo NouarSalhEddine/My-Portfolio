@@ -57,17 +57,7 @@ const Avatar = () => {
           margin="auto"
           fallback={<SkeletonCircle height="100%" width="100%" />}
         />
-        <Text textAlign="center" fontSize="smaller" variant="description">
-          Art by{' '}
-          <Link
-            href="https://twitter.com/kojiro_ai"
-            target="_blank"
-            aria-label="KojiroArt"
-            rel="noreferrer"
-          >
-            KojiroArt
-          </Link>
-        </Text>
+
       </MotionBox>
     </AnimatePresence>
   )
