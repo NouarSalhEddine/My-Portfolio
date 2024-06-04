@@ -51,32 +51,22 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        I`ve been coding professionally for {professionalYears} years now and
-        currently working as a <b>Software Engineer</b> that focuses on{' '}
-        <b>architecture</b>, <b>APIs</b>,{' '}
+        I've been coding professionally for {professionalYears} years now and
+        currently work as a <b>Software Engineer</b> specializing in{' '}
+        <b>front-end development</b>. My focus includes designing{' '}
+        <b>architecture</b>, developing <b>APIs</b>,{' '}
         <Tooltip
           label="Ha!. Or more accurately TECH DEBT"
           aria-label="Tech Debt?"
           hasArrow
         >
           <Text as="span" variant="emphasis">
-            <b>nitty-gritty business logics</b>
+            <b>nitty-gritty business logic</b>
           </Text>
-        </Tooltip>{' '}
-        and even <b>front end integration</b> stuff now, how time flies!
-        <br /> <br />
-        Here are few technologies that are cup of my{' '}
-        <Tooltip
-          label="I only drink tea if I needed too!"
-          aria-label="I hate Tea!"
-          hasArrow
-        >
-          <Text as="span" variant="emphasis" textDecorationLine="line-through">
-            tea
-          </Text>
-        </Tooltip>{' '}
-        coffee <Icon as={GiCoffeePot} color={emphasis} />.
+        </Tooltip>
+        , and integrating front-end elements.
       </Text>
+
 
       <SimpleGrid columns={2} spacing={4}>
         <List spacing={3}>

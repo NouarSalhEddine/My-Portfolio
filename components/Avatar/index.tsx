@@ -51,7 +51,7 @@ const Avatar = () => {
       >
         <ChkImage
           src={imgAvatar}
-          alt="KL Lawingco Avatar"
+          alt="salheddine nouar Avatar"
           htmlWidth="250"
           htmlHeight="250"
           margin="auto"
