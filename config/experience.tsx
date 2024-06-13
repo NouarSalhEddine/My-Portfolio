@@ -20,15 +20,15 @@ export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
   Deloitte: {
-    name: 'Deloitte',
+    name: 'OmranSoftware',
     longName: 'Deloitte Consulthing Phils. Delivery Center',
     subDetail: 'Consulthing Phils. Delivery Center',
-    url: 'https://www2.deloitte.com/',
-    position: 'Software Engineer Consultant',
-    duration: 'Sep 2021 - Present',
+    url: 'https://www.omransoftware.com/',
+    position: 'Software Engineer / Scrum Master',
+    duration: 'Jan 2023 - Jun 2024',
     logo: {
-      light: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
-      dark: '/worked_at_logos/deloitte/Deloitte_logo.png',
+      light: '/worked_at_logos/omran/logo-omran.png',
+      dark: '/worked_at_logos/omran/logo-omran.png',
     },
     roles: [
       <>
