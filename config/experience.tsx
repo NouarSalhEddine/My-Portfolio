@@ -124,33 +124,35 @@ export const Experiences: {
     ],
   },
   Blotocol: {
-    name: 'Blotocol',
-    longName: 'Blotocol Philippines',
+    name: 'Acces Trades Co.',
+    longName: 'Acces Trades Co.',
     subDetail: 'formerly IVP Global Inc.',
-    url: 'https://blotocol.com/',
-    position: 'Senior Software Engineer',
-    duration: 'Nov 2016 - Feb 2020',
+    url: 'https://accesstradesco.com/',
+    position: 'Junior Software Engineer',
+    duration: 'Aug 2016 - Nov 2018',
     logo: {
-      light: '/worked_at_logos/ivp/blotocol_logo-dark.png',
-      dark: '/worked_at_logos/ivp/blotocol-logo-white.png',
+      light: '/worked_at_logos/acces trades/acces.png',
+      dark: '/worked_at_logos/acces trades/acces.png',
     },
     roles: [
       <>
-        Developed a Twitter Raffle Campaign / Contest Bot called Camps with
-        statistics similar to Facebook Ads.
+        Developed static web applications using jQuery, HTML, and CSS.
+
       </>,
       <>
-        In 2019 got promoted as Senior Software Engineer and worked with Cryto
-        Exchange, Smart Contracts and other APIs using several techs such as
-        NodeJS, .NET Core and React.
+        Collaborated with designers to translate mockups into fully functional web pages.
+
       </>,
       <>
-        Create highly scalable Japanese e-commerce sites. Most notable clients
-        were TV Tokyo, Layla EC using .NET.
+        Ensured cross-browser compatibility and optimized web pages for performance.
+
       </>,
       <>
-        Hired at 2016, Undergone Japanese language training first. Shortly
-        after, worked with in-house .NET MVC Framework called ERS.
+        Created UML diagrams to document system architecture, workflows, and data models.
+
+      </>,
+      <>
+        Analyzed requirements and designed software solutions using UML diagrams to ensure clarity and alignment with business needs. 
       </>,
     ],
   },
