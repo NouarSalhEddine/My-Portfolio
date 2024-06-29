@@ -28,7 +28,7 @@ const FeaturedWorksSection = () => {
           fontVariantCaps: 'small-caps',
         }}
       >
-        Some of my works.
+        Some of my work.
       </Heading>
       <Text variant="description">
         Check out some of the works I made at freelancing, company projects and
@@ -44,13 +44,12 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={1}
-            title="Tobira!"
-            src="/works/tobira/IphoneX-tobira.webp"
-            description="Japanese social media platform for travelers to show off their
-          adventure to the world. I was incharge of Front end integration, made using React, Antd and Styled Components."
+            title="Nojoom"
+            src="/works/nojoom/nojoom.jpeg"
+            description="Developed the React web application for an AI-driven chatbot tailored for Arabic language interactions, akin to ChatGPT. Integrated the AI model by using backend APIs to provide interactive and intelligent conversational capabilities. Utilized technologies such as React.js and Node.js."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://tobira-app-test.netlify.app/"
-            objectPosition="right 20%"
+            ctaUrl="https://www.nojoom.ai"
+            // objectPosition="right 20%"
             isMobile={isMobile}
           />
         </MotionGridItem>
@@ -58,11 +57,11 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={2}
-            title="RSV"
-            description="RSV is a smart contract (ERC20) powered reservation system. I am incharge of backend using NET.Core 2.1."
-            src="/works/rsv.webp"
+            title="Cirrus"
+            description="Developed a 911 emergency response system using a flexible layout with React Flex-Layout. Implemented a microfrontend architecture to ensure scalability and modularity. Enabled communication between microfrontends using Postal.js, ensuring seamless data flow and integration across different components."
+            src="/works/cirrus/cirrus.jpeg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://solution.rsv.ltd/jp"
+            ctaUrl="https://emeres.com/cirrus/"
             isMobile={isMobile}
           />
         </MotionGridItem>
@@ -70,24 +69,12 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={3}
-            title="Agora School"
-            description="A quizz - reviewer LMS, I made as a freelancer. Backend were powered by PHPSlim and VueJS for Front end."
-            src="/works/agora.webp"
+            title="Electronic Medical Records (EMR)"
+            description="Developed an electronic medical record (EMR) system for doctors to manage patient data, appointments, and medical history. "
+            src="/works/emr/emr.jpg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://dev.agora-school.com"
-            objectPosition="right 20%"
-            isMobile={isMobile}
-          />
-        </MotionGridItem>
-
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
-          <FeaturedCard
-            idx={4}
-            title="TMH Layla EC"
-            description="A Japanese Semi-conductor e-commerce made at my old place at IVP. I was working with backend using ASP.NET MVC"
-            src="/works/tmh.webp"
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://www.layla-ec.com/"
+            ctaUrl="https://ELECTRONICMEDICALRECORDS.com"
+            
             isMobile={isMobile}
           />
         </MotionGridItem>

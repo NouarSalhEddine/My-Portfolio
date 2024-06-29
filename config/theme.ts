@@ -31,6 +31,7 @@ const config = {
 
 const colors = {
   black: '#121212',
+  white: '#ffffff',
 }
 
 const styles = {

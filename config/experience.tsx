@@ -32,95 +32,59 @@ export const Experiences: {
     },
     roles: [
       <>
-       Contributed to the design and development of a comprehensive .NET payment integration project for a client
-       That covered credit card payments and subscription management.
-       Introduced Stripe as a new payment provider within the system architecture.
-       Participated in triaging, fixing and adding new functionalitiesto multiple Azure powered APIs of the same client.
+      Managed a team of 5 developers, providing mentorship and guidance on best practices and design patterns.
+    </>,
+      <>
+    Developed and maintained scalable web applications using React.js, Node.js, and GraphQL.
+
       </>,
       <>
-        Worked as a Sitecore Backend on new{' '}
-        <Link
-          aria-label="Deloitte Digital AU"
-          href="https://www.deloittedigital.com.au/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Deloitte Digital AU Site.
-        </Link>
+  Facilitated communication between microfrontends using Postal.js, ensuring seamless data flow and integration across different components.
+
       </>,
       <>
-        Udergone training for .NET Sitecore 10,
-        Sitecore SXA and different topologies it provides.{' '} and Passed {' '}
-        <Link
-          aria-label="Sitecore 10 .NET Developer Certification"
-          href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Sitecore 10 .NET Developer Certification.
-        </Link>
+    Migrated legacy systems to modern web frameworks, improving development speed by 30%.
+
       </>,
+      <>
+Enhanced application performance through code optimization and refactoring.
+
+      </>,
+    
+      <>
+      Collaborated with UX/UI designers to improve user experience and application aesthetics.
+
+      </>,
+      <>
+      Implemented unit and integration tests using Jest and React testing library to ensure code quality.
+      </>
+
     ],
   },
   SCG: {
-    name: 'Scentregroup',
+    name: 'TemTem',
     longName: 'Scentregroup Limited AU',
     subDetail: 'via Prosource BPO',
-    url: 'https://www.scentregroup.com/',
-    position: 'Software Engineer',
+    url: 'https://www.temtemone.com/#/',
+    position: 'Frontend Developer',
     duration: 'Feb 2020 - Sep 2021',
     logo: {
-      light: '/worked_at_logos/scg/SCG_400x400.jpg',
-      dark: '/worked_at_logos/scg/SCG.png',
+      light: '/worked_at_logos/temtem/temtem.png',
+      dark: '/worked_at_logos/temtem/temtem.png',
     },
     roles: [
       <>
-        Revamping the legacy Partner Portal into a new{' '}
-        <Link
-          aria-label="Westfield Marketing Hub"
-          href="https://partner.scentregroup.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield Marketing Hub
-        </Link>{' '}
-        using NextJS and Typescript. Restructuring the old express app into a
-        newer architectural design approach.
+       	Develop and test React.JS applications that meet accessibility and web browser standards for the website.
+
       </>,
       <>
-        Created multiple Contentful and Bynder extensions to improve BX process
-        better.
+      Use React-router to transform the application into a Single Page Application.
+
       </>,
       <>
-        Worked on maintaining{' '}
-        <Link
-          variant="primaryLink"
-          href="https://www.westfield.com.au/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield
-        </Link>{' '}
-        main site and Graphql apis written in NodeJS.
+       Work using (React JS components, forms, events, keys, router, animations, and flux concept).
       </>,
-      <>
-        Migrating of existing marketing email related tools and batch jobs from
-        Responsys into new platform called Braze.
-      </>,
-      <>
-        Hired at early 2020, first major task was helping with selecting a new
-        marketing vendor that can scale and also enable us to have
-        personalisation as well, selecting{' '}
-        <Link
-          aria-label="Braze"
-          href="https://www.braze.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Braze
-        </Link>{' '}
-        as a result.
-      </>,
+     
     ],
   },
   Blotocol: {
