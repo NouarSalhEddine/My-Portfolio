@@ -35,7 +35,7 @@ const SkillList = ({
   const [colOne, colTwo = []] = columns
   return (
     <>
-      <Heading as="div" size="sm" paddingBottom={1} variant="description">
+      <Heading color={useColorModeValue("#121212","#f1f1f1")} as="div" size="sm" paddingBottom={1} variant="description">
         {title}
       </Heading>
       <Divider marginBottom={4} />
@@ -86,23 +86,24 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
       onClose={onClose}
       motionPreset="slideInBottom"
       scrollBehavior="inside"
+      
     >
       <ModalOverlay />
       <ModalContent>
-        <ModalHeader>Full Skill Set List</ModalHeader>
+        <ModalHeader background={useColorModeValue("#f1f1f1","#121212")} >Full Skill Set List</ModalHeader>
         <ModalCloseButton />
-        <ModalBody className={styles.skillModal}>
-          <SkillList title="Backend Centric" columns={backendCols} />
-          <SkillList title="Frontend Centric" columns={frontendCols} />
-          <SkillList title="CICD centric" columns={cicdCols} />
-          <SkillList title="Database and Streams" columns={dataBaseCols} />
-          <SkillList title="Ui Frameworks" columns={uiFrameWorkCols} />
-          <SkillList title="Mobile Development" columns={mobileCols} />
-          <SkillList title="Game Development" columns={gameCols} />
-          <SkillList title="Desktop App" columns={desktopCols} />
-          <SkillList title="Productivity boosts" columns={productivityCols} />
+        <ModalBody background={useColorModeValue("#f1f1f1","#121212")}  className={styles.skillModal}>
+          <SkillList  title="Backend Centric" columns={backendCols} />
+          <SkillList  title="Frontend Centric" columns={frontendCols} />
+          <SkillList  title="CICD centric" columns={cicdCols} />
+          <SkillList  title="Database and Streams" columns={dataBaseCols} />
+          <SkillList  title="Ui Frameworks" columns={uiFrameWorkCols} />
+          <SkillList  title="Mobile Development" columns={mobileCols} />
+          <SkillList  title="Game Development" columns={gameCols} />
+          <SkillList  title="Desktop App" columns={desktopCols} />
+          <SkillList  title="Productivity boosts" columns={productivityCols} />
         </ModalBody>
-        <ModalFooter>
+        <ModalFooter background={useColorModeValue("#f1f1f1","#121212")} >
           <Text fontSize="x-small">*Some micro frameworks not included </Text>
         </ModalFooter>
       </ModalContent>

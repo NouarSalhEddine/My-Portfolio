@@ -9,6 +9,7 @@ import {
   Box,
   Icon,
   useBreakpointValue,
+  useColorModeValue,
 } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import styles from './styles.module.css'
@@ -109,6 +110,7 @@ const Sidebar = () => {
             paddingRight={{ lg: '12' }}
             variants={fadeInUp}
             maxWidth={{ base: '100%', lg: '80%' }}
+            color={useColorModeValue("#121212","#f1f1f1")}
           >
             Hey! How nice of you to look at my personal site,
             <Text variant="emphasis" as="span">
@@ -126,11 +128,12 @@ const Sidebar = () => {
             fontWeight="normal"
             fontSize="sm"
             width="120px"
+            color={useColorModeValue("#121212","#f1f1f1")}
             variants={simpleOpacity}
             as={'a'}
             href="mailto:nouarsalheddine@gmail.com"
             target="_blank"
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ background:"none", scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
             Get in touch!
@@ -139,6 +142,7 @@ const Sidebar = () => {
           <MotionBox d="flex" variants={simpleOpacity}>
             {SocialMedias.map((socMedia) => (
               <Link
+                color={useColorModeValue("#121212","#f1f1f1")}
                 variant="description"
                 key={socMedia.label}
                 aria-label={socMedia.label}
