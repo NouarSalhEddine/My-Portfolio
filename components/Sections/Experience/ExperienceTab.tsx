@@ -94,6 +94,7 @@ const ExperienceTab = () => {
                   fontSize="lg"
                   fontWeight="bold"
                   variant="description"
+                  color={useColorModeValue("#121212","#f1f1f1")}
                 >
                   {company.position}
                 </Text>
@@ -120,9 +121,10 @@ const ExperienceTab = () => {
                 </Text>
                 <Text fontSize="smaller">{company.duration}</Text>
               </Stack>
-              <List spacing={3} pt={5}>
+              <List  spacing={3} pt={5}>
                 {company.roles?.map((roleDesc, idx) => (
                   <ListItem
+                    
                     key={`${company.name}-desc-${idx}`}
                     fontSize="smaller"
                     display="flex"
@@ -134,7 +136,7 @@ const ExperienceTab = () => {
                       color={emphasis}
                       display="block"
                     />
-                    <Text as="span" display="block" variant="description">
+                    <Text as="span" display="block" color={useColorModeValue("#121212","#f1f1f1")} variant="description">
                       {roleDesc}
                     </Text>
                   </ListItem>

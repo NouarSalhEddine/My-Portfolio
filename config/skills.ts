@@ -3,12 +3,12 @@ import {
   SiDotNet,
   SiJavascript,
   SiTypescript,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiGraphql,
   SiApollographql,
   SiPhp,
   SiReact,
-  SiNextDotJs,
+  SiNextdotjs,
   SiRedux,
   SiStyledComponents,
   SiGhost,
@@ -33,8 +33,9 @@ import {
   SiMicrosoft,
   SiElectron,
   SiAngular,
+  SiChakraui
 } from 'react-icons/si'
-import { BsQuestionSquare } from 'react-icons/bs'
+
 import { AiOutlineAntDesign } from 'react-icons/ai'
 import { FaSourcetree } from 'react-icons/fa'
 import { IoLogoPwa } from 'react-icons/io5'
@@ -61,7 +62,7 @@ export const Skills: {
   backend: [
     {
       name: 'Node',
-      icon: SiNodeDotJs,
+      icon: SiNodedotjs,
     },
     {
       name: 'Javascript (ES6+)',
@@ -72,13 +73,9 @@ export const Skills: {
       icon: SiTypescript,
     },
     {
-      name: 'Graphql (JS, C#)',
+      name: 'Graphql',
       icon: SiGraphql,
-    },
-    {
-      name: 'PHP (Wordpress, Slim)',
-      icon: SiPhp,
-    },
+    }
   ],
   frontend: [
     {
@@ -87,7 +84,7 @@ export const Skills: {
     },
     {
       name: 'NextJS',
-      icon: SiNextDotJs,
+      icon: SiNextdotjs,
     },
     {
       name: 'Apollo Graphql',
@@ -96,15 +93,7 @@ export const Skills: {
     {
       name: 'Redux',
       icon: SiRedux,
-    },
-    {
-      name: 'VueJS',
-      icon: SiVueDotJs,
-    },
-    {
-      name: 'Angular',
-      icon: SiAngular,
-    },
+    }
   ],
   database: [
     {
@@ -153,7 +142,7 @@ export const Skills: {
     },
     {
       name: 'ChakraUI',
-      icon: BsQuestionSquare,
+      icon: SiChakraui,
     }
   ],
   'productivity boost': [

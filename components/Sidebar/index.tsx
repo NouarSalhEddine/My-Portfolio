@@ -91,7 +91,7 @@ const Sidebar = () => {
             className={styles.marginTopForce}
             variants={fadeInUp}
           >
-            Or you could call me Wingo. That works too . . .
+            (also known as Wingo)
           </MotionText>
 
           <MotionHeading
@@ -112,13 +112,12 @@ const Sidebar = () => {
             maxWidth={{ base: '100%', lg: '80%' }}
             color={useColorModeValue("#121212","#f1f1f1")}
           >
-            Hey! How nice of you to look at my personal site,
+            Hey there! I'm thrilled that you've taken the time to visit my personal site,
             <Text variant="emphasis" as="span">
               {' '}
               Thank you!
             </Text>
-            <br />I am software engineer that specializes at front
-            end integration, backend apis, recently found myself studying information system too.
+            <br />I am a software engineer specializing in front-end development and backend APIs. Recently, I've also been diving into the study of information systems to further expand my skill set.
           </MotionText>
           <MotionButton
             size="lg"

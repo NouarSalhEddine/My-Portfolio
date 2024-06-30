@@ -13,18 +13,17 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react'
 import {
-  SiDotNet,
   SiJavascript,
   SiTypescript,
   SiGraphql,
   SiReact,
-  SiNextDotJs,
-  SiNodeDotJs,
+  SiNextdotjs,
+  SiNodedotjs,
   SiDocker,
-  SiJava,
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
+import { FaJava } from 'react-icons/fa'
 
 type ISkillSetModal = {
   onOpen(): void
@@ -85,7 +84,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </ListItem>
 
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNodeDotJs} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
             Node
           </ListItem>
         </List>
@@ -96,7 +95,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </ListItem>
 
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNextDotJs} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiNextdotjs} color={emphasis} fontSize="2em" />
             NextJS
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
@@ -104,7 +103,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             Docker
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiJava} color={emphasis} fontSize="2em" />
+            <ListIcon as={FaJava} color={emphasis} fontSize="2em" />
             Java - Spring
           </ListItem>
         </List>

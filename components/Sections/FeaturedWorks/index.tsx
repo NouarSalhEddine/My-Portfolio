@@ -6,6 +6,7 @@ import {
   Grid,
   GridItem,
   useBreakpointValue,
+  useColorModeValue,
 } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import FeaturedCard from './FeaturedCard'
@@ -30,9 +31,8 @@ const FeaturedWorksSection = () => {
       >
         Some of my work.
       </Heading>
-      <Text variant="description">
-        Check out some of the works I made at freelancing, company projects and
-        even case studies.
+      <Text color={useColorModeValue("#121212","#f1f1f1")} variant="description">
+        Check out some of the works I made at freelancing and company projects .
       </Text>
 
       <MotionGrid
@@ -46,7 +46,7 @@ const FeaturedWorksSection = () => {
             idx={1}
             title="Nojoom"
             src="/works/nojoom/nojoom.jpeg"
-            description="Developed the React web application for an AI-driven chatbot tailored for Arabic language interactions, akin to ChatGPT. Integrated the AI model by using backend APIs to provide interactive and intelligent conversational capabilities. Utilized technologies such as React.js and Node.js."
+            description="Created and launched an AI-powered chatbot designed for Arabic language interactions, similar to ChatGPT. Seamlessly integrated the AI model into a React application, enabling intelligent and interactive conversations. Leveraged React.js, Node.js, and sophisticated AI technologies to bring this project to fruition."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.nojoom.ai"
             // objectPosition="right 20%"
@@ -58,7 +58,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={2}
             title="Cirrus"
-            description="Developed a 911 emergency response system using a flexible layout with React Flex-Layout. Implemented a microfrontend architecture to ensure scalability and modularity. Enabled communication between microfrontends using Postal.js, ensuring seamless data flow and integration across different components."
+            description="Engineered a 911 emergency response system featuring a dynamic layout with React Flex-Layout. Employed a microfrontend architecture to enhance scalability and modularity. Integrated Postal.js to enable smooth communication and data exchange between different microfrontends, ensuring cohesive and efficient system performance."
             src="/works/cirrus/cirrus.jpeg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://emeres.com/cirrus/"
@@ -70,7 +70,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={3}
             title="Electronic Medical Records (EMR)"
-            description="Developed an electronic medical record (EMR) system for doctors to manage patient data, appointments, and medical history. "
+            description="Designed and implemented an electronic medical record (EMR) system to streamline doctors' management of patient data, appointments, and medical histories."
             src="/works/emr/emr.jpg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://ELECTRONICMEDICALRECORDS.com"
