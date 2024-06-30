@@ -21,8 +21,8 @@ export const Experiences: {
 } = {
   Deloitte: {
     name: 'OmranSoftware',
-    longName: 'Deloitte Consulthing Phils. Delivery Center',
-    subDetail: 'Consulthing Phils. Delivery Center',
+    longName: 'Omran Consulthing Mourad. Delivery Center',
+    subDetail: 'Consulthing Mourad. Delivery Center',
     url: 'https://www.omransoftware.com/',
     position: 'Software Engineer / Scrum Master',
     duration: 'Jan 2023 - Jun 2024',
@@ -64,8 +64,8 @@ export const Experiences: {
   },
   SCG: {
     name: 'TemTem',
-    longName: 'Scentregroup Limited AU',
-    subDetail: 'via Prosource BPO',
+    longName: '',
+    subDetail: '',
     url: 'https://www.temtemone.com/#/',
     position: 'Frontend Developer',
     duration: 'Feb 2020 - Sep 2021',
@@ -90,8 +90,8 @@ export const Experiences: {
   },
   Blotocol: {
     name: 'Acces Trades Co.',
-    longName: 'Acces Trades Co.',
-    subDetail: 'formerly IVP Global Inc.',
+    longName: 'Acces Trades ',
+    subDetail: 'Co.',
     url: 'https://accesstradesco.com/',
     position: 'Junior Software Engineer',
     duration: 'Aug 2016 - Nov 2018',
