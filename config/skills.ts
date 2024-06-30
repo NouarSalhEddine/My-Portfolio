@@ -1,6 +1,5 @@
 import { IconType } from 'react-icons'
 import {
-  SiDotNet,
   SiJavascript,
   SiTypescript,
   SiNodedotjs,
@@ -10,9 +9,9 @@ import {
   SiReact,
   SiNextdotjs,
   SiRedux,
-  SiStyledComponents,
+  SiStyledcomponents,
   SiGhost,
-  SiVueDotJs,
+  SiVuedotjs,
   SiDocker,
   SiGooglecloud,
   SiCpanel,
@@ -23,8 +22,7 @@ import {
   SiMysql,
   SiMongodb,
   SiRedis,
-  SiSocketDotIo,
-  SiMaterialUi,
+  SiSocketdotio,
   SiFramer,
   SiGit,
   SiGnubash,
@@ -39,6 +37,7 @@ import {
 import { AiOutlineAntDesign } from 'react-icons/ai'
 import { FaSourcetree } from 'react-icons/fa'
 import { IoLogoPwa } from 'react-icons/io5'
+import { IconBaseProps } from 'react-icons/lib'
 
 export type SkillCategory =
   | 'backend'
@@ -114,7 +113,7 @@ export const Skills: {
     },
     {
       name: 'SocketIO',
-      icon: SiSocketDotIo,
+      icon: SiSocketdotio,
     }
   ],
   cicd: [
@@ -124,17 +123,10 @@ export const Skills: {
     }
   ],
   'ui frameworks': [
-    {
-      name: 'Styled Components',
-      icon: SiStyledComponents,
-    },
+    
     {
       name: 'AntDesign',
       icon: AiOutlineAntDesign,
-    },
-    {
-      name: 'MaterialUI',
-      icon: SiMaterialUi,
     },
     {
       name: 'Framer Motion',
@@ -199,3 +191,7 @@ export const splitSkills = (srcArray: Skill[]) => {
   }
   return temporary
 }
+function SiMaterialUi(props: IconBaseProps): Element {
+  throw new Error('Function not implemented.')
+}
+

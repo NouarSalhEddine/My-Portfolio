@@ -50,7 +50,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
       >
         What i do.
       </Heading>
-      <Text color={useColorModeValue("#121212","#f1f1f1")} variant="description">
+      <Text color={useColorModeValue("#121212", "#f1f1f1")} variant="description">
         I've been coding professionally for {professionalYears} years now and
         currently work as a <b>Software Engineer</b> specializing in{' '}
         <b>front-end development</b>. My focus includes designing{' '}

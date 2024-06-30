@@ -15,7 +15,7 @@ const DetailSection = () => (
     >
       Places i’ve worked.
     </Heading>
-    <Text color={useColorModeValue("#121212","#f1f1f1")} variant="description">
+    <Text color={useColorModeValue("#121212", "#f1f1f1")} variant="description">
       Since 2016, had a privilege to work with several companies that enables me
       to hone my skills and talents. These companies will always have a special
       place in my heart.

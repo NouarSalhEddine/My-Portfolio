@@ -1,8 +1,6 @@
 import {
   Box,
   Image as ChkImage,
-  Text,
-  Link,
   SkeletonCircle,
   useColorModeValue,
 } from '@chakra-ui/react'
@@ -14,7 +12,6 @@ const AvatarImages = {
   DarkMode: './SN_avatar.png',
   LightMode: './SN_avatar_light.png',
 }
-
 declare global {
   interface Window {
     preloadedPictures?: HTMLImageElement[]

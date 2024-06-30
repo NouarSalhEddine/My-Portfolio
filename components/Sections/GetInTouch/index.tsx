@@ -67,12 +67,11 @@ const GetInTouch = () => {
       </Text>
 
       <Box
-        spacing={0.5}
+        letterSpacing={0.1}
         textAlign="center"
         fontFamily="monospace"
         paddingTop={{ base: 10, lg: 20, xl: 20 }}
         paddingBottom={{ base: 5, lg: 18 }}
-        
       >
         <Link
           color={useColorModeValue("#121212","#f1f1f1")}

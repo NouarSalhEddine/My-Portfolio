@@ -4,7 +4,8 @@ import {
   ChakraTheme,
   ThemeComponentProps,
 } from '@chakra-ui/react'
-import { mode } from '@chakra-ui/theme-tools'
+import { StyleFunctionProps, mode } from '@chakra-ui/theme-tools'
+import { Dict } from '@chakra-ui/utils'
 
 interface IThemeMode {
   Light: ColorMode
@@ -68,7 +69,7 @@ const theme = extendTheme({
   styles,
   components: {
     Link: {
-      baseStyle: (props) => ({
+      baseStyle: (props: Dict | StyleFunctionProps) => ({
         color: mode('teal.500', 'cyan.200')(props),
       }),
       variants: {
@@ -90,10 +91,10 @@ const theme = extendTheme({
     },
     Button: {
       variants: {
-        outline: (props) => ({
+        outline: (props: Dict | StyleFunctionProps) => ({
           borderColor: mode('black.400', 'cyan.200')(props),
         }),
-        outlineAlternative: (props) => ({
+        outlineAlternative: (props: Dict) => ({
           borderWidth: '1px',
           borderRadius: 0,
           borderColor: mode('#595959', 'whiteAlpha.500')(props),
@@ -108,14 +109,14 @@ const theme = extendTheme({
     },
     Icon: {
       variants: {
-        accent: (props) => ({
+        accent: (props: Dict | StyleFunctionProps) => ({
           borderColor: mode('gray.800', 'gray.400')(props),
         }),
       },
     },
     Divider: {
       variants: {
-        solid: (props) => ({
+        solid: (props: Dict | StyleFunctionProps) => ({
           borderColor: mode('gray.800', 'gray.400')(props),
           marginLeft: 'auto',
           marginRight: 'auto',
