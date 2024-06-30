@@ -1,7 +1,7 @@
 import {
   Box,
   Image as ChkImage,
-  //SkeletonCircle,
+  SkeletonCircle,
   useColorModeValue,
 } from '@chakra-ui/react'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -46,14 +46,14 @@ const Avatar = () => {
         variants={avatarAnimation}
         exit={{ opacity: 0 }}
       >
-        {/* <ChkImage
+        <ChkImage
           src={imgAvatar}
           alt="salheddine nouar Avatar"
           htmlWidth="250"
           htmlHeight="250"
           margin="auto"
-         // fallback={<SkeletonCircle height="100%" width="100%" />}//
-        /> */}
+         fallback={<SkeletonCircle height="100%" width="100%" />}
+        />
       </MotionBox>
     </AnimatePresence>
   )
