@@ -13,17 +13,16 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react'
 import {
-  SiDotNet,
   SiJavascript,
   SiTypescript,
   SiGraphql,
   SiReact,
-  SiNextDotJs,
-  SiNodeDotJs,
+  SiNextdotjs,
+  SiNodedotjs,
   SiDocker,
 } from 'react-icons/si'
-import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
+import { FaJava } from 'react-icons/fa'
 
 type ISkillSetModal = {
   onOpen(): void
@@ -32,7 +31,7 @@ type ISkillSetModal = {
 const Detail = ({ onOpen }: ISkillSetModal) => {
   const emphasis = useColorModeValue('teal.500', 'cyan.200')
   const currentYear = new Date().getFullYear()
-  const professionalYears = currentYear - 2016
+  const professionalYears = currentYear - 2020
 
   return (
     <Stack
@@ -50,39 +49,31 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
       >
         What i do.
       </Heading>
-      <Text variant="description">
-        I`ve been coding professionally for {professionalYears} years now and
-        currently working as a <b>Software Engineer</b> that focuses on{' '}
-        <b>architecture</b>, <b>APIs</b>,{' '}
+      <Text
+        color={useColorModeValue('#121212', '#f1f1f1')}
+        variant="description"
+      >
+        I&apos;ve been coding professionally for {professionalYears} years now
+        and currently work as a <b>Software Engineer</b> specializing in{' '}
+        <b>front-end development</b>. My focus includes designing{' '}
+        <b>architecture</b>, developing <b>APIs</b>,{' '}
         <Tooltip
           label="Ha!. Or more accurately TECH DEBT"
           aria-label="Tech Debt?"
           hasArrow
         >
           <Text as="span" variant="emphasis">
-            <b>nitty-gritty business logics</b>
+            <b>nitty-gritty business logic</b>
           </Text>
-        </Tooltip>{' '}
-        and even <b>front end integration</b> stuff now, how time flies!
-        <br /> <br />
-        Here are few technologies that are cup of my{' '}
-        <Tooltip
-          label="I only drink tea if I needed too!"
-          aria-label="I hate Tea!"
-          hasArrow
-        >
-          <Text as="span" variant="emphasis" textDecorationLine="line-through">
-            tea
-          </Text>
-        </Tooltip>{' '}
-        coffee <Icon as={GiCoffeePot} color={emphasis} />.
+        </Tooltip>
+        , and integrating front-end elements.
       </Text>
 
       <SimpleGrid columns={2} spacing={4}>
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiDotNet} color={emphasis} fontSize="2em" />
-            C# - .NET.Core
+            <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
+            React
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiJavascript} color={emphasis} fontSize="2em" />
@@ -94,7 +85,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </ListItem>
 
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNodeDotJs} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
             Node
           </ListItem>
         </List>
@@ -103,17 +94,18 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <ListIcon as={SiGraphql} color={emphasis} fontSize="2em" />
             Graphql
           </ListItem>
+
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
-            React
-          </ListItem>
-          <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNextDotJs} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiNextdotjs} color={emphasis} fontSize="2em" />
             NextJS
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiDocker} color={emphasis} fontSize="2em" />
             Docker
+          </ListItem>
+          <ListItem fontSize="small" display="flex" alignItems="center">
+            <ListIcon as={FaJava} color={emphasis} fontSize="2em" />
+            Java - Spring
           </ListItem>
         </List>
         <Box>

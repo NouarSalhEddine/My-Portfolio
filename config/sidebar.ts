@@ -16,39 +16,39 @@ type SocialMedia = {
 }
 
 export const SocialMedias: SocialMedia[] = [
-  {
-    label: 'Twitter',
-    href: 'https://twitter.com/keysl1831',
-    icon: FaTwitter,
-  },
+  // {
+  //   label: 'Twitter',
+  //   href: '',
+  //   icon: FaTwitter,
+  // },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/kllawingco/',
+    href: 'https://www.instagram.com/nouar_salheddine/',
     icon: FaInstagram,
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/marclawingco/',
+    href: 'https://www.linkedin.com/in/salheddine-nouar-a3bb13243/',
     icon: FaLinkedin,
   },
-  {
-    label: 'StackOverflow',
-    href: 'https://stackoverflow.com/users/3867490/keysl',
-    icon: FaStackOverflow,
-  },
-  {
-    label: 'Youtube',
-    href: 'https://www.youtube.com/channel/UCV-MiUVsKJrKJKKfUK58nhg',
-    icon: FaYoutube,
-  },
+  // {
+  //   label: 'StackOverflow',
+  //   href: 'https://stackoverflow.com/users/3867490/keysl',
+  //   icon: FaStackOverflow,
+  // },
+  // {
+  //   label: 'Youtube',
+  //   href: '',
+  //   icon: FaYoutube,
+  // },
   {
     label: 'Github',
-    href: 'https://github.com/klawingco',
+    href: 'https://github.com/NouarSalhEddine',
     icon: FaGithub,
   },
   {
     label: 'Dev.to',
-    href: 'https://dev.to/klawingco',
+    href: 'https://dev.to/nouarsalheddine',
     icon: FaDev,
   },
 ]

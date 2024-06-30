@@ -1,5 +1,5 @@
 {
-  "name": "kl-portfolio",
+  "name": "SE-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -32,6 +32,6 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "prettier": "^2.3.2",
-    "typescript": "4.3.5"
+    "typescript": "^5.5.2"
   }
 }

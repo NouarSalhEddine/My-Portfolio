@@ -1,8 +1,6 @@
 import {
   Box,
   Image as ChkImage,
-  Text,
-  Link,
   SkeletonCircle,
   useColorModeValue,
 } from '@chakra-ui/react'
@@ -11,10 +9,9 @@ import { useEffect } from 'react'
 import { avatarAnimation } from 'config/animations'
 
 const AvatarImages = {
-  DarkMode: '/KL_avatar.png',
-  LightMode: './KL_avatar_light.png',
+  DarkMode: './SN_avatar.png',
+  LightMode: './SN_avatar_light.png',
 }
-
 declare global {
   interface Window {
     preloadedPictures?: HTMLImageElement[]
@@ -51,23 +48,12 @@ const Avatar = () => {
       >
         <ChkImage
           src={imgAvatar}
-          alt="KL Lawingco Avatar"
+          alt="salheddine nouar Avatar"
           htmlWidth="250"
           htmlHeight="250"
           margin="auto"
           fallback={<SkeletonCircle height="100%" width="100%" />}
         />
-        <Text textAlign="center" fontSize="smaller" variant="description">
-          Art by{' '}
-          <Link
-            href="https://twitter.com/kojiro_ai"
-            target="_blank"
-            aria-label="KojiroArt"
-            rel="noreferrer"
-          >
-            KojiroArt
-          </Link>
-        </Text>
       </MotionBox>
     </AnimatePresence>
   )

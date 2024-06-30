@@ -1,18 +1,17 @@
 import { IconType } from 'react-icons'
 import {
-  SiDotNet,
   SiJavascript,
   SiTypescript,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiGraphql,
   SiApollographql,
   SiPhp,
   SiReact,
-  SiNextDotJs,
+  SiNextdotjs,
   SiRedux,
-  SiStyledComponents,
+  SiStyledcomponents,
   SiGhost,
-  SiVueDotJs,
+  SiVuedotjs,
   SiDocker,
   SiGooglecloud,
   SiCpanel,
@@ -23,8 +22,7 @@ import {
   SiMysql,
   SiMongodb,
   SiRedis,
-  SiSocketDotIo,
-  SiMaterialUi,
+  SiSocketdotio,
   SiFramer,
   SiGit,
   SiGnubash,
@@ -32,11 +30,14 @@ import {
   SiUnity,
   SiMicrosoft,
   SiElectron,
+  SiAngular,
+  SiChakraui,
 } from 'react-icons/si'
-import { BsQuestionSquare } from 'react-icons/bs'
+
 import { AiOutlineAntDesign } from 'react-icons/ai'
 import { FaSourcetree } from 'react-icons/fa'
 import { IoLogoPwa } from 'react-icons/io5'
+import { IconBaseProps } from 'react-icons/lib'
 
 export type SkillCategory =
   | 'backend'
@@ -59,12 +60,8 @@ export const Skills: {
 } = {
   backend: [
     {
-      name: 'C# - .NET.Core',
-      icon: SiDotNet,
-    },
-    {
       name: 'Node',
-      icon: SiNodeDotJs,
+      icon: SiNodedotjs,
     },
     {
       name: 'Javascript (ES6+)',
@@ -75,22 +72,18 @@ export const Skills: {
       icon: SiTypescript,
     },
     {
-      name: 'Graphql (JS, C#)',
+      name: 'Graphql',
       icon: SiGraphql,
-    },
-    {
-      name: 'PHP (Wordpress, Slim)',
-      icon: SiPhp,
     },
   ],
   frontend: [
     {
-      name: 'React, RecoilJS',
+      name: 'ReactJS',
       icon: SiReact,
     },
     {
       name: 'NextJS',
-      icon: SiNextDotJs,
+      icon: SiNextdotjs,
     },
     {
       name: 'Apollo Graphql',
@@ -100,23 +93,11 @@ export const Skills: {
       name: 'Redux',
       icon: SiRedux,
     },
-    {
-      name: 'VueJS',
-      icon: SiVueDotJs,
-    },
-    {
-      name: 'Ghost',
-      icon: SiGhost,
-    },
   ],
   database: [
     {
       name: 'PostgreSQL',
       icon: SiPostgresql,
-    },
-    {
-      name: 'MsSQL',
-      icon: SiMicrosoftsqlserver,
     },
     {
       name: 'MySQL',
@@ -132,11 +113,7 @@ export const Skills: {
     },
     {
       name: 'SocketIO',
-      icon: SiSocketDotIo,
-    },
-    {
-      name: 'Google Pubsub',
-      icon: SiGooglecloud,
+      icon: SiSocketdotio,
     },
   ],
   cicd: [
@@ -144,39 +121,11 @@ export const Skills: {
       name: 'Docker',
       icon: SiDocker,
     },
-    {
-      name: 'GCP',
-      icon: SiGooglecloud,
-    },
-    {
-      name: 'CPanel',
-      icon: SiCpanel,
-    },
-    {
-      name: 'Rancher',
-      icon: SiRancher,
-    },
-    {
-      name: 'GitlabCICD',
-      icon: SiGitlab,
-    },
-    {
-      name: 'Buildkite',
-      icon: BsQuestionSquare,
-    },
   ],
   'ui frameworks': [
     {
-      name: 'Styled Components',
-      icon: SiStyledComponents,
-    },
-    {
       name: 'AntDesign',
       icon: AiOutlineAntDesign,
-    },
-    {
-      name: 'MaterialUI',
-      icon: SiMaterialUi,
     },
     {
       name: 'Framer Motion',
@@ -184,7 +133,7 @@ export const Skills: {
     },
     {
       name: 'ChakraUI',
-      icon: BsQuestionSquare,
+      icon: SiChakraui,
     },
   ],
   'productivity boost': [
@@ -200,19 +149,11 @@ export const Skills: {
       name: 'Bash',
       icon: SiGnubash,
     },
-    {
-      name: 'SourceTree',
-      icon: FaSourcetree,
-    },
   ],
   mobile: [
     {
       name: 'React Native',
       icon: SiReact,
-    },
-    {
-      name: 'Web PWA',
-      icon: IoLogoPwa,
     },
   ],
   games: [
@@ -222,10 +163,6 @@ export const Skills: {
     },
   ],
   desktop: [
-    {
-      name: 'Windows Forms, WPF',
-      icon: SiMicrosoft,
-    },
     {
       name: 'Electron',
       icon: SiElectron,
@@ -251,4 +188,7 @@ export const splitSkills = (srcArray: Skill[]) => {
     temporary.push(srcArray.slice(i, i + chunk))
   }
   return temporary
+}
+function SiMaterialUi(props: IconBaseProps): Element {
+  throw new Error('Function not implemented.')
 }

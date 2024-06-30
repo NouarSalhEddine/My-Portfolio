@@ -6,6 +6,7 @@ import {
   Grid,
   GridItem,
   useBreakpointValue,
+  useColorModeValue,
 } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import FeaturedCard from './FeaturedCard'
@@ -28,11 +29,13 @@ const FeaturedWorksSection = () => {
           fontVariantCaps: 'small-caps',
         }}
       >
-        Some of my works.
+        Some of my work.
       </Heading>
-      <Text variant="description">
-        Check out some of the works I made at freelancing, company projects and
-        even case studies.
+      <Text
+        color={useColorModeValue('#121212', '#f1f1f1')}
+        variant="description"
+      >
+        Check out some of the works I made at freelancing and company projects .
       </Text>
 
       <MotionGrid
@@ -44,13 +47,12 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={1}
-            title="Tobira!"
-            src="/works/tobira/IphoneX-tobira.webp"
-            description="Japanese social media platform for travelers to show off their
-          adventure to the world. I was incharge of Front end integration, made using React, Antd and Styled Components."
+            title="Nojoom"
+            src="/works/nojoom/nojoom.jpeg"
+            description="Created and launched an AI-powered chatbot designed for Arabic language interactions, similar to ChatGPT. Seamlessly integrated the AI model into a React application, enabling intelligent and interactive conversations. Leveraged React.js, Node.js, and sophisticated AI technologies to bring this project to fruition."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://tobira-app-test.netlify.app/"
-            objectPosition="right 20%"
+            ctaUrl="https://www.nojoom.ai"
+            // objectPosition="right 20%"
             isMobile={isMobile}
           />
         </MotionGridItem>
@@ -58,11 +60,11 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={2}
-            title="RSV"
-            description="RSV is a smart contract (ERC20) powered reservation system. I am incharge of backend using NET.Core 2.1."
-            src="/works/rsv.webp"
+            title="Cirrus"
+            description="Engineered a 911 emergency response system featuring a dynamic layout with React Flex-Layout. Employed a microfrontend architecture to enhance scalability and modularity. Integrated Postal.js to enable smooth communication and data exchange between different microfrontends, ensuring cohesive and efficient system performance."
+            src="/works/cirrus/cirrus.jpeg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://solution.rsv.ltd/jp"
+            ctaUrl="https://emeres.com/cirrus/"
             isMobile={isMobile}
           />
         </MotionGridItem>
@@ -70,24 +72,11 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={3}
-            title="Agora School"
-            description="A quizz - reviewer LMS, I made as a freelancer. Backend were powered by PHPSlim and VueJS for Front end."
-            src="/works/agora.webp"
+            title="Electronic Medical Records (EMR)"
+            description="Designed and implemented an electronic medical record (EMR) system to streamline doctors' management of patient data, appointments, and medical histories."
+            src="/works/emr/emr.jpg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://dev.agora-school.com"
-            objectPosition="right 20%"
-            isMobile={isMobile}
-          />
-        </MotionGridItem>
-
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
-          <FeaturedCard
-            idx={4}
-            title="TMH Layla EC"
-            description="A Japanese Semi-conductor e-commerce made at my old place at IVP. I was working with backend using ASP.NET MVC"
-            src="/works/tmh.webp"
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://www.layla-ec.com/"
+            ctaUrl="https://ELECTRONICMEDICALRECORDS.com"
             isMobile={isMobile}
           />
         </MotionGridItem>

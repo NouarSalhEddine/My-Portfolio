@@ -4,7 +4,7 @@ import {
   Image,
   ResponsiveValue,
   Divider,
-  Skeleton,
+  // Skeleton,
   Text,
   SimpleGrid,
   Button,
@@ -141,13 +141,13 @@ const FeaturedCard = ({
       width="100%"
       src={src}
       alt={title}
-      objectFit="cover"
+      objectFit="fill"
       objectPosition={objectPosition}
       loading="lazy"
       opacity={0.75}
       whileHover={variants.hover}
       whileTap={variants.tap}
-      fallback={<Skeleton height={height} width="100%" />}
+      // fallback={<Skeleton height={height} width="100%" />}
     />
   )
 

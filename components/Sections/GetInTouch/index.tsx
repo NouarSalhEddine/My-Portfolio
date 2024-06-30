@@ -1,5 +1,13 @@
 import { memo } from 'react'
-import { Heading, Text, Stack, Link, Icon, Box } from '@chakra-ui/react'
+import {
+  Heading,
+  Text,
+  Stack,
+  Link,
+  Icon,
+  Box,
+  useColorModeValue,
+} from '@chakra-ui/react'
 import { motion, Variants } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { RiHeartPulseFill, RiCopyleftLine, RiGithubFill } from 'react-icons/ri'
@@ -51,13 +59,16 @@ const GetInTouch = () => {
           </motion.div>
         </Text>
       </Heading>
-      <Text variant="description">
+      <Text
+        color={useColorModeValue('#121212', '#f1f1f1')}
+        variant="description"
+      >
         Though, I am fairly introverted myself. I do reply to messages as long
         as my human interaction battery lasts. Coding, work, movies or even weeb
         stuff, anything is cool. So feel free to message me on any of my social
         media or shoot me an{' '}
         <Link
-          href="mailto:marcjhon18@gmail.com"
+          href="mailto:nouarsalheddine@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
@@ -67,24 +78,26 @@ const GetInTouch = () => {
       </Text>
 
       <Box
-        spacing={0.5}
+        letterSpacing={0.1}
         textAlign="center"
         fontFamily="monospace"
         paddingTop={{ base: 10, lg: 20, xl: 20 }}
         paddingBottom={{ base: 5, lg: 18 }}
       >
         <Link
+          color={useColorModeValue('#121212', '#f1f1f1')}
           variant="description"
           textDecoration="none"
           rel="noreferrer"
-          href="https://github.com/klawingco/kl_portfolio"
+          href="https://github.com/nouarsalheddine"
           target="_blank"
           _focus={{ boxShadow: 'none' }}
+          _hover={{ color: 'teal.500' }}
         >
           <Text as="span">
             <Icon as={RiGithubFill} h={6} w={6} /> <br />
             Designed and Made with <Icon as={RiHeartPulseFill} /> <br />
-            KL Lawingco <Icon as={RiCopyleftLine} /> 2021
+            SALHEDDINE NOUAR <Icon as={RiCopyleftLine} /> 2021
           </Text>
         </Link>
       </Box>

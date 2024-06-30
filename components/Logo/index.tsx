@@ -17,7 +17,8 @@ const Logo = () => {
         {colorMode === ThemeMode.Dark ? (
           <MotionImage
             className={!isMobile ? styles.logo : ''}
-            boxSize={isMobile ? '30px' : '50px'}
+            style={isMobile ? { marginLeft: -10, marginTop: 10 } : ''}
+            boxSize={isMobile ? '50px' : '80px'}
             objectFit="cover"
             src="./logo.png"
             alt="KL Lawingco Logo"
@@ -31,11 +32,12 @@ const Logo = () => {
         ) : (
           <MotionImage
             className={!isMobile ? styles.logo : ''}
-            boxSize={isMobile ? '30px' : '50px'}
+            style={isMobile ? { marginLeft: -10, marginTop: 10 } : ''}
+            boxSize={isMobile ? '50px' : '80px'}
             objectFit="cover"
             src="./logo_light.png"
             fallbackSrc="./logo_light.png"
-            alt="KL Lawingco Logo"
+            alt="SE NOUAR Logo"
             variants={simpleOpacity}
             initial="initial"
             animate={isLogoLoaded && 'animate'}
