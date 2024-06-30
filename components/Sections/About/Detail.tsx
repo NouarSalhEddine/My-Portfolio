@@ -21,7 +21,6 @@ import {
   SiNodedotjs,
   SiDocker,
 } from 'react-icons/si'
-import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
 import { FaJava } from 'react-icons/fa'
 
@@ -50,9 +49,12 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
       >
         What i do.
       </Heading>
-      <Text color={useColorModeValue("#121212", "#f1f1f1")} variant="description">
-        I've been coding professionally for {professionalYears} years now and
-        currently work as a <b>Software Engineer</b> specializing in{' '}
+      <Text
+        color={useColorModeValue('#121212', '#f1f1f1')}
+        variant="description"
+      >
+        I&apos;ve been coding professionally for {professionalYears} years now
+        and currently work as a <b>Software Engineer</b> specializing in{' '}
         <b>front-end development</b>. My focus includes designing{' '}
         <b>architecture</b>, developing <b>APIs</b>,{' '}
         <Tooltip
@@ -66,7 +68,6 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         </Tooltip>
         , and integrating front-end elements.
       </Text>
-
 
       <SimpleGrid columns={2} spacing={4}>
         <List spacing={3}>

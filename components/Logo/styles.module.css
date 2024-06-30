@@ -1,12 +1,12 @@
-.logo{
+.logo {
   position: fixed;
   top: 3%;
   left: 2.6%;
   cursor: pointer;
   z-index: 100;
 }
-.sidebar{
-  border: 3px solid #97DFFC;
+.sidebar {
+  border: 3px solid #97dffc;
   border-radius: 100%;
   height: 120vh;
   width: 50vw;

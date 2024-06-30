@@ -13,7 +13,7 @@ import {
   ListIcon,
   ListItem,
   SlideFade,
-  Skeleton,
+  // Skeleton,
   useColorModeValue,
   useBreakpointValue,
   useColorMode,
@@ -29,7 +29,7 @@ const ExperienceTab = () => {
   const borderColor = useColorModeValue('gray.300', 'gray.600')
   const activeBordercolor = useColorModeValue('teal.500', '#97DFFC')
   const isMobile = useBreakpointValue(mobileBreakpointsMap)
-
+  const defaultColor = useColorModeValue('#121212', '#f1f1f1')
   const tabOrientation =
     useBreakpointValue({
       base: 'horizontal',
@@ -79,7 +79,7 @@ const ExperienceTab = () => {
               }
               alt={company.longName}
               maxWidth="88px"
-              fallback={<Skeleton height="100%" width="100%" />}
+              // fallback={<Skeleton height="100%" width="100%" />}
             ></Image>
           </Tab>
         ))}
@@ -94,7 +94,7 @@ const ExperienceTab = () => {
                   fontSize="lg"
                   fontWeight="bold"
                   variant="description"
-                  color={useColorModeValue("#121212","#f1f1f1")}
+                  color={defaultColor}
                 >
                   {company.position}
                 </Text>
@@ -121,10 +121,9 @@ const ExperienceTab = () => {
                 </Text>
                 <Text fontSize="smaller">{company.duration}</Text>
               </Stack>
-              <List  spacing={3} pt={5}>
+              <List spacing={3} pt={5}>
                 {company.roles?.map((roleDesc, idx) => (
                   <ListItem
-                    
                     key={`${company.name}-desc-${idx}`}
                     fontSize="smaller"
                     display="flex"
@@ -136,7 +135,12 @@ const ExperienceTab = () => {
                       color={emphasis}
                       display="block"
                     />
-                    <Text as="span" display="block" color={useColorModeValue("#121212","#f1f1f1")} variant="description">
+                    <Text
+                      as="span"
+                      display="block"
+                      color={defaultColor}
+                      variant="description"
+                    >
                       {roleDesc}
                     </Text>
                   </ListItem>

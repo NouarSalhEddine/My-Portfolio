@@ -30,6 +30,7 @@ const Sidebar = () => {
   const MotionStack = motion(Stack)
   const MotionButton = motion(Button)
   const MotionBox = motion(Box)
+  const defaultColor = useColorModeValue('#121212', '#f1f1f1')
 
   return (
     <MotionBox
@@ -110,14 +111,17 @@ const Sidebar = () => {
             paddingRight={{ lg: '12' }}
             variants={fadeInUp}
             maxWidth={{ base: '100%', lg: '80%' }}
-            color={useColorModeValue("#121212","#f1f1f1")}
+            color={defaultColor}
           >
-            Hey there! I'm thrilled that you've taken the time to visit my personal site,
+            Hey there! I&apos;m thrilled that you&apos;ve taken the time to
+            visit my personal site,
             <Text variant="emphasis" as="span">
               {' '}
               Thank you!
             </Text>
-            <br />I am a software engineer specializing in front-end development and backend APIs. Recently, I've also been diving into the study of information systems to further expand my skill set.
+            <br />I am a software engineer specializing in front-end development
+            and backend APIs. Recently, I&apos;ve also been diving into the
+            study of information systems to further expand my skill set.
           </MotionText>
           <MotionButton
             size="lg"
@@ -127,12 +131,12 @@ const Sidebar = () => {
             fontWeight="normal"
             fontSize="sm"
             width="120px"
-            color={useColorModeValue("#121212","#f1f1f1")}
+            color={defaultColor}
             variants={simpleOpacity}
             as={'a'}
             href="mailto:nouarsalheddine@gmail.com"
             target="_blank"
-            whileHover={{ background:"none", scale: 1.1 }}
+            whileHover={{ background: 'none', scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
             Get in touch!
@@ -141,7 +145,7 @@ const Sidebar = () => {
           <MotionBox d="flex" variants={simpleOpacity}>
             {SocialMedias.map((socMedia) => (
               <Link
-                color={useColorModeValue("#121212","#f1f1f1")}
+                color={defaultColor}
                 variant="description"
                 key={socMedia.label}
                 aria-label={socMedia.label}

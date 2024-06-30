@@ -31,7 +31,10 @@ const FeaturedWorksSection = () => {
       >
         Some of my work.
       </Heading>
-      <Text color={useColorModeValue("#121212","#f1f1f1")} variant="description">
+      <Text
+        color={useColorModeValue('#121212', '#f1f1f1')}
+        variant="description"
+      >
         Check out some of the works I made at freelancing and company projects .
       </Text>
 
@@ -74,7 +77,6 @@ const FeaturedWorksSection = () => {
             src="/works/emr/emr.jpg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://ELECTRONICMEDICALRECORDS.com"
-            
             isMobile={isMobile}
           />
         </MotionGridItem>

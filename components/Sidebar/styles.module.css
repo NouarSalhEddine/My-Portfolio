@@ -1,5 +1,5 @@
-.sidebar{
-  border: 3px solid #97DFFC;
+.sidebar {
+  border: 3px solid #97dffc;
   border-left-color: transparent;
   border-top-color: transparent;
   border-bottom-color: transparent;
@@ -14,25 +14,25 @@
   opacity: 0;
 }
 @media (max-width: 480px) {
-  .sidebar{
+  .sidebar {
     display: none;
     min-width: auto;
   }
 }
 @media (max-width: 1280px) {
-  .sidebar{
+  .sidebar {
     left: -66%;
   }
 }
-.dark{
+.dark {
   border: 3px solid black;
   border-left-color: transparent;
   border-top-color: transparent;
   border-bottom-color: transparent;
 }
-.marginTopForce{
+.marginTopForce {
   margin-top: 0 !important;
 }
-.marginTopSmall{
+.marginTopSmall {
   margin-top: 12px !important;
 }

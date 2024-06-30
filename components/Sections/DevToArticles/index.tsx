@@ -31,7 +31,10 @@ const DevToArticles = ({ articles }: { articles: Article[] }) => {
       >
         Dev.to blog
       </Heading>
-      <Text color={useColorModeValue("#121212", "#f1f1f1")} variant="description">
+      <Text
+        color={useColorModeValue('#121212', '#f1f1f1')}
+        variant="description"
+      >
         I write dev related things from time to time!
       </Text>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={{ base: 5, md: 10 }}>

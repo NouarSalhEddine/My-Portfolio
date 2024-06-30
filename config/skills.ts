@@ -31,7 +31,7 @@ import {
   SiMicrosoft,
   SiElectron,
   SiAngular,
-  SiChakraui
+  SiChakraui,
 } from 'react-icons/si'
 
 import { AiOutlineAntDesign } from 'react-icons/ai'
@@ -74,7 +74,7 @@ export const Skills: {
     {
       name: 'Graphql',
       icon: SiGraphql,
-    }
+    },
   ],
   frontend: [
     {
@@ -92,7 +92,7 @@ export const Skills: {
     {
       name: 'Redux',
       icon: SiRedux,
-    }
+    },
   ],
   database: [
     {
@@ -114,16 +114,15 @@ export const Skills: {
     {
       name: 'SocketIO',
       icon: SiSocketdotio,
-    }
+    },
   ],
   cicd: [
     {
       name: 'Docker',
       icon: SiDocker,
-    }
+    },
   ],
   'ui frameworks': [
-    
     {
       name: 'AntDesign',
       icon: AiOutlineAntDesign,
@@ -135,7 +134,7 @@ export const Skills: {
     {
       name: 'ChakraUI',
       icon: SiChakraui,
-    }
+    },
   ],
   'productivity boost': [
     {
@@ -149,13 +148,13 @@ export const Skills: {
     {
       name: 'Bash',
       icon: SiGnubash,
-    }
+    },
   ],
   mobile: [
     {
       name: 'React Native',
       icon: SiReact,
-    }
+    },
   ],
   games: [
     {
@@ -164,7 +163,6 @@ export const Skills: {
     },
   ],
   desktop: [
-   
     {
       name: 'Electron',
       icon: SiElectron,
@@ -194,4 +192,3 @@ export const splitSkills = (srcArray: Skill[]) => {
 function SiMaterialUi(props: IconBaseProps): Element {
   throw new Error('Function not implemented.')
 }
-

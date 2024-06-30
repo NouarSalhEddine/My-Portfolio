@@ -17,7 +17,7 @@ const Logo = () => {
         {colorMode === ThemeMode.Dark ? (
           <MotionImage
             className={!isMobile ? styles.logo : ''}
-            style={isMobile ? { marginLeft: -10, marginTop: 10 } : ""}
+            style={isMobile ? { marginLeft: -10, marginTop: 10 } : ''}
             boxSize={isMobile ? '50px' : '80px'}
             objectFit="cover"
             src="./logo.png"
@@ -32,7 +32,7 @@ const Logo = () => {
         ) : (
           <MotionImage
             className={!isMobile ? styles.logo : ''}
-            style={isMobile ? { marginLeft: -10, marginTop: 10 } : ""}
+            style={isMobile ? { marginLeft: -10, marginTop: 10 } : ''}
             boxSize={isMobile ? '50px' : '80px'}
             objectFit="cover"
             src="./logo_light.png"

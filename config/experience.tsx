@@ -32,33 +32,34 @@ export const Experiences: {
     },
     roles: [
       <>
-      Managed a team of 5 developers, providing mentorship and guidance on best practices and design patterns.
-    </>,
-      <>
-    Developed and maintained scalable web applications using React.js, Node.js, and GraphQL.
-
+        Managed a team of 5 developers, providing mentorship and guidance on
+        best practices and design patterns.
       </>,
       <>
-  Facilitated communication between microfrontends using Postal.js, ensuring seamless data flow and integration across different components.
-
+        Developed and maintained scalable web applications using React.js,
+        Node.js, and GraphQL.
       </>,
       <>
-    Migrated legacy systems to modern web frameworks, improving development speed by 30%.
-
+        Facilitated communication between microfrontends using Postal.js,
+        ensuring seamless data flow and integration across different components.
       </>,
       <>
-Enhanced application performance through code optimization and refactoring.
-
-      </>,
-    
-      <>
-      Collaborated with UX/UI designers to improve user experience and application aesthetics.
-
+        Migrated legacy systems to modern web frameworks, improving development
+        speed by 30%.
       </>,
       <>
-      Implemented unit and integration tests using Jest and React testing library to ensure code quality.
-      </>
+        Enhanced application performance through code optimization and
+        refactoring.
+      </>,
 
+      <>
+        Collaborated with UX/UI designers to improve user experience and
+        application aesthetics.
+      </>,
+      <>
+        Implemented unit and integration tests using Jest and React testing
+        library to ensure code quality.
+      </>,
     ],
   },
   SCG: {
@@ -74,17 +75,17 @@ Enhanced application performance through code optimization and refactoring.
     },
     roles: [
       <>
-       	Develop and test React.JS applications that meet accessibility and web browser standards for the website.
-
+        Develop and test React.JS applications that meet accessibility and web
+        browser standards for the website.
       </>,
       <>
-      Use React-router to transform the application into a Single Page Application.
-
+        Use React-router to transform the application into a Single Page
+        Application.
       </>,
       <>
-       Work using (React JS components, forms, events, keys, router, animations, and flux concept).
+        Work using (React JS components, forms, events, keys, router,
+        animations, and flux concept).
       </>,
-     
     ],
   },
   Blotocol: {
@@ -99,24 +100,22 @@ Enhanced application performance through code optimization and refactoring.
       dark: '/worked_at_logos/acces trades/acces.png',
     },
     roles: [
+      <>Developed static web applications using jQuery, HTML, and CSS.</>,
       <>
-        Developed static web applications using jQuery, HTML, and CSS.
-
+        Collaborated with designers to translate mockups into fully functional
+        web pages.
       </>,
       <>
-        Collaborated with designers to translate mockups into fully functional web pages.
-
+        Ensured cross-browser compatibility and optimized web pages for
+        performance.
       </>,
       <>
-        Ensured cross-browser compatibility and optimized web pages for performance.
-
+        Created UML diagrams to document system architecture, workflows, and
+        data models.
       </>,
       <>
-        Created UML diagrams to document system architecture, workflows, and data models.
-
-      </>,
-      <>
-        Analyzed requirements and designed software solutions using UML diagrams to ensure clarity and alignment with business needs. 
+        Analyzed requirements and designed software solutions using UML diagrams
+        to ensure clarity and alignment with business needs.
       </>,
     ],
   },
