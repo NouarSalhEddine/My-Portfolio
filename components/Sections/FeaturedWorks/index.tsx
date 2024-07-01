@@ -44,7 +44,7 @@ const FeaturedWorksSection = () => {
         gap={{ base: 5, md: 6 }}
         variants={galleryStagger}
       >
-                <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={2}
             title="Cirrus"
@@ -81,8 +81,6 @@ const FeaturedWorksSection = () => {
             isMobile={isMobile}
           />
         </MotionGridItem>
-
-
       </MotionGrid>
     </Stack>
   )
