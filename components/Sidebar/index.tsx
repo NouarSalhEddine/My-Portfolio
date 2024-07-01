@@ -57,14 +57,6 @@ const Sidebar = () => {
         alignItems={{ xl: 'center' }}
       >
         <MotionStack variants={stagger} spacing={6} w="100">
-          <MotionText
-            variants={fadeInUp}
-            delay={1}
-            variant="accent"
-            fontWeight="light"
-          >
-            Ohh you found me?. Howdy! I am
-          </MotionText>
           <MotionHeading
             as="h1"
             size="2xl"
@@ -102,7 +94,7 @@ const Sidebar = () => {
             className={styles.marginTopSmall}
             variants={fadeInUp}
           >
-            Software Engineer
+            Software Developer
           </MotionHeading>
 
           <MotionText
@@ -113,15 +105,17 @@ const Sidebar = () => {
             maxWidth={{ base: '100%', lg: '80%' }}
             color={defaultColor}
           >
-            Hey there! I&apos;m thrilled that you&apos;ve taken the time to
-            visit my personal site,
+            Welcome to my personal site! I&apos;m excited to share my journey
+            with you. <br />
+            As a
             <Text variant="emphasis" as="span">
               {' '}
-              Thank you!
+              software developer{' '}
             </Text>
-            <br />I am a software engineer specializing in front-end development
-            and backend APIs. Recently, I&apos;ve also been diving into the
-            study of information systems to further expand my skill set.
+            specializing in front-end development and backend systems, I bring a
+            comprehensive approach to building robust applications. Recently,
+            I&apos;ve been expanding my expertise by studying information
+            systems to enhance my skill set even further.
           </MotionText>
           <MotionButton
             size="lg"

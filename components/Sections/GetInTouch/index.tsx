@@ -63,10 +63,10 @@ const GetInTouch = () => {
         color={useColorModeValue('#121212', '#f1f1f1')}
         variant="description"
       >
-        Though, I am fairly introverted myself. I do reply to messages as long
-        as my human interaction battery lasts. Coding, work, movies or even weeb
-        stuff, anything is cool. So feel free to message me on any of my social
-        media or shoot me an{' '}
+        I&apos;d love to hear from you! Whether you have a question, a project
+        idea, or just want to chat, feel free to reach out. Let&apos;s connect
+        and see how we can collaborate or help each other grow! . So feel free
+        to message me on any of my social media or shoot me an{' '}
         <Link
           href="mailto:nouarsalheddine@gmail.com"
           target="_blank"

@@ -44,20 +44,7 @@ const FeaturedWorksSection = () => {
         gap={{ base: 5, md: 6 }}
         variants={galleryStagger}
       >
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
-          <FeaturedCard
-            idx={1}
-            title="Nojoom"
-            src="/works/nojoom/nojoom.jpeg"
-            description="Created and launched an AI-powered chatbot designed for Arabic language interactions, similar to ChatGPT. Seamlessly integrated the AI model into a React application, enabling intelligent and interactive conversations. Leveraged React.js, Node.js, and sophisticated AI technologies to bring this project to fruition."
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://www.nojoom.ai"
-            // objectPosition="right 20%"
-            isMobile={isMobile}
-          />
-        </MotionGridItem>
-
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+                <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={2}
             title="Cirrus"
@@ -65,6 +52,7 @@ const FeaturedWorksSection = () => {
             src="/works/cirrus/cirrus.jpeg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://emeres.com/cirrus/"
+            objectPosition="right 20%"
             isMobile={isMobile}
           />
         </MotionGridItem>
@@ -77,9 +65,24 @@ const FeaturedWorksSection = () => {
             src="/works/emr/emr.jpg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://ELECTRONICMEDICALRECORDS.com"
+            objectPosition="right 20%"
             isMobile={isMobile}
           />
         </MotionGridItem>
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={1}
+            title="Nojoom"
+            src="/works/nojoom/nojoom.jpeg"
+            description="Created and launched an AI-powered chatbot designed for Arabic language interactions, similar to ChatGPT. Seamlessly integrated the AI model into a React application, enabling intelligent and interactive conversations. Leveraged React.js, Node.js, and sophisticated AI technologies to bring this project to fruition."
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            ctaUrl="https://www.nojoom.ai"
+            objectPosition="right 20%"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
+
+
       </MotionGrid>
     </Stack>
   )

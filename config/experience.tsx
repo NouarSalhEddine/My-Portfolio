@@ -24,7 +24,7 @@ export const Experiences: {
     longName: 'Omran Consulthing Mourad. Delivery Center',
     subDetail: 'Consulthing Mourad. Delivery Center',
     url: 'https://www.omransoftware.com/',
-    position: 'Software Engineer / Scrum Master',
+    position: 'Software Developer / Scrum Master',
     duration: 'Jan 2023 - Jun 2024',
     logo: {
       light: '/worked_at_logos/omran/logo-omran.png',
@@ -93,7 +93,7 @@ export const Experiences: {
     longName: 'Acces Trades ',
     subDetail: 'Co.',
     url: 'https://accesstradesco.com/',
-    position: 'Junior Software Engineer',
+    position: 'Junior Software Developer',
     duration: 'Aug 2016 - Nov 2018',
     logo: {
       light: '/worked_at_logos/acces trades/acces.png',

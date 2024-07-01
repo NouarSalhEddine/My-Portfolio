@@ -16,9 +16,9 @@ const DetailSection = () => (
       Places i’ve worked.
     </Heading>
     <Text color={useColorModeValue('#121212', '#f1f1f1')} variant="description">
-      Since 2016, had a privilege to work with several companies that enables me
-      to hone my skills and talents. These companies will always have a special
-      place in my heart.
+      Since 2016, I&apos;ve had the privilege of working with several companies
+      that have enabled me to hone my skills and talents. These experiences have
+      been invaluable and will always hold a special place in my heart.
     </Text>
 
     <ExperienceTab />

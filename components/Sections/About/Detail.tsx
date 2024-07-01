@@ -54,7 +54,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         variant="description"
       >
         I&apos;ve been coding professionally for {professionalYears} years now
-        and currently work as a <b>Software Engineer</b> specializing in{' '}
+        and currently work as a <b>Software Developer</b> specializing in{' '}
         <b>front-end development</b>. My focus includes designing{' '}
         <b>architecture</b>, developing <b>APIs</b>,{' '}
         <Tooltip
