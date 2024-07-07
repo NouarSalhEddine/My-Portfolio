@@ -32,33 +32,23 @@ export const Experiences: {
     },
     roles: [
       <>
-        Managed a team of 5 developers, providing mentorship and guidance on
-        best practices and design patterns.
+        Built an Arabic-language NLP client enabling ChatGPT-like conversational
+        interactions.
       </>,
       <>
-        Developed and maintained scalable web applications using React.js,
-        Node.js, and GraphQL.
+        Spearheaded micro frontend architecture implementation for scalability
+        and modularity.
       </>,
       <>
-        Facilitated communication between microfrontends using Postal.js,
-        ensuring seamless data flow and integration across different components.
+        Migrated a legacy desktop app to a modern web app, improving performance
+        by 40%.
       </>,
       <>
-        Migrated legacy systems to modern web frameworks, improving development
-        speed by 30%.
+        Collaborated with the design team to optimize UI/UX and elevate visual
+        aesthetics.
       </>,
       <>
-        Enhanced application performance through code optimization and
-        refactoring.
-      </>,
-
-      <>
-        Collaborated with UX/UI designers to improve user experience and
-        application aesthetics.
-      </>,
-      <>
-        Implemented unit and integration tests using Jest and React testing
-        library to ensure code quality.
+        Introduced and implemented comprehensive end-to-end testing strategies.
       </>,
     ],
   },
@@ -75,16 +65,20 @@ export const Experiences: {
     },
     roles: [
       <>
-        Develop and test React.JS applications that meet accessibility and web
-        browser standards for the website.
+        Build the landing page, enhancing load efficiency and engagement for
+        10K+ monthly visitors.
       </>,
       <>
-        Use React-router to transform the application into a Single Page
-        Application.
+        Developed frontend interfaces to meet design specification and follow UX
+        best practices.
       </>,
       <>
-        Work using (React JS components, forms, events, keys, router,
-        animations, and flux concept).
+        Collaborated on RESTful API integration for seamless data flow across
+        systems.
+      </>,
+      <>
+        Achieved cross-browser compatibility and performance with a 95+
+        Lighthouse score.
       </>,
     ],
   },
@@ -100,22 +94,26 @@ export const Experiences: {
       dark: '/worked_at_logos/acces trades/acces.png',
     },
     roles: [
-      <>Developed static web applications using jQuery, HTML, and CSS.</>,
       <>
-        Collaborated with designers to translate mockups into fully functional
-        web pages.
+        {' '}
+        Developed high-performing e-commerce pages achieving 98% cross-browser
+        compatibility.
       </>,
       <>
-        Ensured cross-browser compatibility and optimized web pages for
-        performance.
+        Created UML diagrams for clear system architecture and process
+        documentation.
       </>,
       <>
-        Created UML diagrams to document system architecture, workflows, and
-        data models.
+        Provided timely technical support and implemented bug fixes based on
+        users feedback.
       </>,
       <>
-        Analyzed requirements and designed software solutions using UML diagrams
-        to ensure clarity and alignment with business needs.
+        Ensured proactive technical support, minimizing downtime and users
+        disruption.
+      </>,
+      <>
+        Enforced best practices through regular code reviews to maintain
+        high-quality standards.
       </>,
     ],
   },
